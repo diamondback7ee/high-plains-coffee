@@ -1,0 +1,61 @@
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin: 43px 173px 21px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 36px;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #2d2d27;
+}
+
+.brand {
+  text-decoration: none;
+  font-size: 2rem;
+  margin-left: 133px;
+  margin-right: 320px;
+  font-weight: 300;
+  color: #2d2d27;
+}
+
+.cart-circle {
+  background-color: inherit;
+  color: #2d2d27;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid #2d2d27;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-count {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid #2d2d27;
+  width: 1.75rem;
+  height: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d2d27;
+  color: #ebc8a7;
+  font-size: 1rem;
+  bottom: 0;
+  right: 0;
+  font-weight: normal;
+  transform: translate(30%, 45%);
+}
